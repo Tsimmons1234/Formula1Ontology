@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2">
+        <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Drives_For -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Drives_For">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Managed_By -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Managed_By">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Manages"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Manages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Manages">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#First_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#First_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Last_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Last_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Drives_For"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Manages"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te1"/>
+        <untitled-ontology-2:First_Name>Lewis</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Hamilton</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</untitled-ontology-2:Number>
+        <rdfs:label>Lewis Hamilton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te5"/>
+        <untitled-ontology-2:First_Name>Lance</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Stroll</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</untitled-ontology-2:Number>
+        <rdfs:label>Lance Stroll</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te6"/>
+        <untitled-ontology-2:First_Name>Nico</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Hulkenberg</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</untitled-ontology-2:Number>
+        <rdfs:label>Nico Hulkenburg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te6"/>
+        <untitled-ontology-2:First_Name>Kevin</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Magnussen</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</untitled-ontology-2:Number>
+        <rdfs:label>Kevin Magnussen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te7"/>
+        <untitled-ontology-2:First_Name>Daniel</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Ricciardo</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-2:Number>
+        <rdfs:label>Daniel Ricciardo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te7"/>
+        <untitled-ontology-2:First_Name>Yuki</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Tsunoda</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</untitled-ontology-2:Number>
+        <rdfs:label>Yuki Tsunoda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te8"/>
+        <untitled-ontology-2:First_Name>Valtteri</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Bottas</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</untitled-ontology-2:Number>
+        <rdfs:label>Valtteri Bottas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te8"/>
+        <untitled-ontology-2:First_Name>Zhou</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Guanyu</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</untitled-ontology-2:Number>
+        <rdfs:label>Zhou Guanyu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te9"/>
+        <untitled-ontology-2:First_Name>Alexander</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Albon</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</untitled-ontology-2:Number>
+        <rdfs:label>Alexander Albon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te9"/>
+        <untitled-ontology-2:First_Name>Logan</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Sargeant</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-2:Number>
+        <rdfs:label>Logan Sargeant</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te10"/>
+        <untitled-ontology-2:First_Name>Pierre</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Gasly</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</untitled-ontology-2:Number>
+        <rdfs:label>Pierre Gasly</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te1"/>
+        <untitled-ontology-2:First_Name>George</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Russell</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</untitled-ontology-2:Number>
+        <rdfs:label>George Russell</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te10"/>
+        <untitled-ontology-2:First_Name>Esteban</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Ocon</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</untitled-ontology-2:Number>
+        <rdfs:label>Esteban Ocon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te2"/>
+        <untitled-ontology-2:First_Name>Max</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Verstappen</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-2:Number>
+        <rdfs:label>Max Verstappen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te2"/>
+        <untitled-ontology-2:First_Name>Sergio</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Perez</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</untitled-ontology-2:Number>
+        <rdfs:label>Sergiio Perez</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te3"/>
+        <untitled-ontology-2:First_Name>Charles</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Leclerc</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</untitled-ontology-2:Number>
+        <rdfs:label>Charles Leclerc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te3"/>
+        <untitled-ontology-2:First_Name>Carlos</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Sainz</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</untitled-ontology-2:Number>
+        <rdfs:label>Carlos Sainz</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te4"/>
+        <untitled-ontology-2:First_Name>Lando</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Norris</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-2:Number>
+        <rdfs:label>Lando Norris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te4"/>
+        <untitled-ontology-2:First_Name>Oscar</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Piastri</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</untitled-ontology-2:Number>
+        <rdfs:label>Oscar Piastri</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <untitled-ontology-2:Drives_For rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te5"/>
+        <untitled-ontology-2:First_Name>Fernando</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Alonso</untitled-ontology-2:Last_Name>
+        <untitled-ontology-2:Number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</untitled-ontology-2:Number>
+        <rdfs:label>Fernando Alonso</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te1"/>
+        <untitled-ontology-2:First_Name>Toto</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Wolff</untitled-ontology-2:Last_Name>
+        <rdfs:label>Toto Wolff</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te10"/>
+        <untitled-ontology-2:First_Name>Bruno</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Famin</untitled-ontology-2:Last_Name>
+        <rdfs:label>Bruno Famin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te2"/>
+        <untitled-ontology-2:First_Name>Christian</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Horner</untitled-ontology-2:Last_Name>
+        <rdfs:label>Christian Horner</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te3"/>
+        <untitled-ontology-2:First_Name>Frederic</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Vasseur</untitled-ontology-2:Last_Name>
+        <rdfs:label>Frederic Vasseur</rdfs:label>
+        <rdfs:label>Frederic Vausser</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te4"/>
+        <untitled-ontology-2:First_Name>Andrea</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Stella</untitled-ontology-2:Last_Name>
+        <rdfs:label>Stella Andrea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te5"/>
+        <untitled-ontology-2:First_Name>Mike</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Krack</untitled-ontology-2:Last_Name>
+        <rdfs:label>Mike Krack</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te6"/>
+        <untitled-ontology-2:First_Name>Ayao</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Komatsu</untitled-ontology-2:Last_Name>
+        <rdfs:label>Ayao Komatsu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te7"/>
+        <untitled-ontology-2:First_Name>Laurent</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Mekies</untitled-ontology-2:Last_Name>
+        <rdfs:label>Laurent Mekies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te8"/>
+        <untitled-ontology-2:First_Name>Alessandro</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Bravi</untitled-ontology-2:Last_Name>
+        <rdfs:label>Alessandro Bravi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#TP9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+        <untitled-ontology-2:Manages rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te9"/>
+        <untitled-ontology-2:First_Name>James</untitled-ontology-2:First_Name>
+        <untitled-ontology-2:Last_Name>Vowles</untitled-ontology-2:Last_Name>
+        <rdfs:label>James Vowles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <untitled-ontology-2:Team_Name>Mercedes</untitled-ontology-2:Team_Name>
+        <rdfs:label>Mercedes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <untitled-ontology-2:Team_Name>Alpine</untitled-ontology-2:Team_Name>
+        <rdfs:label>Alpine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <untitled-ontology-2:Team_Name>RedBull</untitled-ontology-2:Team_Name>
+        <rdfs:label>RedBull</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <untitled-ontology-2:Team_Name>Ferrari</untitled-ontology-2:Team_Name>
+        <rdfs:label>Ferrari</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <untitled-ontology-2:Team_Name>McLaren</untitled-ontology-2:Team_Name>
+        <rdfs:label>Mclaren</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <untitled-ontology-2:Team_Name>Aston Martin</untitled-ontology-2:Team_Name>
+        <rdfs:label>Aston Martin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <untitled-ontology-2:Team_Name>Haas F1</untitled-ontology-2:Team_Name>
+        <rdfs:label>HaasF1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <untitled-ontology-2:Team_Name>Racing Bulls</untitled-ontology-2:Team_Name>
+        <rdfs:label>Racing Bulls</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <untitled-ontology-2:Team_Name>Sauber Stake</untitled-ontology-2:Team_Name>
+        <rdfs:label>Sauber Stake</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <untitled-ontology-2:Team_Name>Williams</untitled-ontology-2:Team_Name>
+        <rdfs:label>Williams</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
