@@ -123,6 +123,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Grand_Prix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Grand_Prix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Race"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five">
@@ -135,6 +152,86 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_One -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_One">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Three -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Three">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Two -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Two">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_One -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_One">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Three -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Three">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Two -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Two">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Qualifying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Qualifying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Race -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Race">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race"/>
     </owl:Class>
     
 
@@ -165,6 +262,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
     </owl:Class>
     
 
@@ -676,6 +781,31 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_One"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Three"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Two"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_One"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Three"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Two"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Qualifying"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
