@@ -119,6 +119,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Driver</rdfs:label>
     </owl:Class>
     
 
@@ -127,6 +128,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Formula_One_Car">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Vehicle"/>
+        <rdfs:label xml:lang="en">Formula One Car</rdfs:label>
     </owl:Class>
     
 
@@ -135,6 +137,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event"/>
+        <rdfs:label xml:lang="en">Free Practice</rdfs:label>
     </owl:Class>
     
 
@@ -144,6 +147,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Grand_Prix">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Race"/>
+        <rdfs:label xml:lang="en">Grand  Prix</rdfs:label>
     </owl:Class>
     
 
@@ -160,6 +164,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Medical_Vehicle">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Vehicle"/>
+        <rdfs:label xml:lang="en">Medical Vehicle</rdfs:label>
     </owl:Class>
     
 
@@ -168,6 +173,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Person">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
     </owl:Class>
     
 
@@ -176,6 +182,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_One">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice"/>
+        <rdfs:label xml:lang="en">Practice Session One</rdfs:label>
     </owl:Class>
     
 
@@ -184,6 +191,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Three">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice"/>
+        <rdfs:label xml:lang="en">Practice Session Three</rdfs:label>
     </owl:Class>
     
 
@@ -192,6 +200,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Practice_Session_Two">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Free_Practice"/>
+        <rdfs:label xml:lang="en">Practice Session Two</rdfs:label>
     </owl:Class>
     
 
@@ -200,6 +209,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event"/>
+        <rdfs:label xml:lang="en">Qualifying</rdfs:label>
     </owl:Class>
     
 
@@ -208,6 +218,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event"/>
+        <rdfs:label xml:lang="en">Race</rdfs:label>
     </owl:Class>
     
 
@@ -216,6 +227,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Safety_Vehicle">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Vehicle"/>
+        <rdfs:label xml:lang="en">Safety Vehicle</rdfs:label>
     </owl:Class>
     
 
@@ -224,6 +236,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_One">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+        <rdfs:label xml:lang="en">Session One</rdfs:label>
     </owl:Class>
     
 
@@ -232,6 +245,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Three">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+        <rdfs:label xml:lang="en">Session Three</rdfs:label>
     </owl:Class>
     
 
@@ -240,6 +254,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Two">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+        <rdfs:label xml:lang="en">Session Two</rdfs:label>
     </owl:Class>
     
 
@@ -248,6 +263,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Qualifying">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Qualifying"/>
+        <rdfs:label xml:lang="en">Sprint Qualifying</rdfs:label>
     </owl:Class>
     
 
@@ -256,6 +272,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Race">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Race"/>
+        <rdfs:label xml:lang="en">Sprint Race</rdfs:label>
     </owl:Class>
     
 
@@ -278,6 +295,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Team Principal</rdfs:label>
     </owl:Class>
     
 
@@ -294,6 +312,398 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Vehicle">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <rdfs:label xml:lang="en">Vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Aerodynamic Components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamics_engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamics_engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Aerodynamics Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#brakes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#brakes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Brakes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+        <rdfs:label xml:lang="en">Business Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chassis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chassis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Chassis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_engineering_officer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_engineering_officer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role"/>
+        <rdfs:label xml:lang="en">Cheif Engineering Officer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_executive_officer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_executive_officer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role"/>
+        <rdfs:label xml:lang="en">Chief Executive Officer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_technology_officer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_technology_officer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role"/>
+        <rdfs:label xml:lang="en">Chief Technology Officer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#controls_engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#controls_engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Controls Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#cooling_components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#cooling_components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Cooling Components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#cooling_duct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#cooling_duct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#cooling_components"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#radiator"/>
+        <rdfs:label xml:lang="en">Cooling Duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#crash_structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#crash_structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#safety_components"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#halo_device"/>
+        <rdfs:label xml:lang="en">Crash Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#data_acquisition_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#data_acquisition_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#electronic_components"/>
+        <rdfs:label xml:lang="en">Data Acquisition Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#diffuser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#diffuser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component"/>
+        <rdfs:label xml:lang="en">Diffuser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#driver_role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#driver_role">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+        <rdfs:label xml:lang="en">Driver Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#electronic_components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#electronic_components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Electronic Components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Engine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine_performance_engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine_performance_engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Engine Performance Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine_systems_engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine_systems_engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Engine Systems Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+        <rdfs:label xml:lang="en">Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#first_driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#first_driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#primary_driver"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#second_driver"/>
+        <rdfs:label xml:lang="en">First Driver Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Object"/>
+        <rdfs:label xml:lang="en">Formula One Car Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#front_wing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#front_wing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component"/>
+        <rdfs:label xml:lang="en">Front Wing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Fuel Components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_injector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_injector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_components"/>
+        <rdfs:label xml:lang="en">Fuel Injector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_pump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_pump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_components"/>
+        <rdfs:label xml:lang="en">Fuel Pump</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_tank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_tank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_components"/>
+        <rdfs:label xml:lang="en">Fuel Tank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#halo_device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#halo_device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#safety_components"/>
+        <rdfs:label xml:lang="en">Halo Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#hard_tires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#hard_tires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
+        <rdfs:label xml:lang="en">Hard Tires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#intermediate_tires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#intermediate_tires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
+        <rdfs:label xml:lang="en">Intermediate Tires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#medium_tires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#medium_tires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
+        <rdfs:label xml:lang="en">Medium Tires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#performance_engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#performance_engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Performance Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#performance_monitoring_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#performance_monitoring_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#electronic_components"/>
+        <rdfs:label xml:lang="en">Performance Monitoring Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#primary_driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#primary_driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#driver_role"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#reserve_driver"/>
+        <rdfs:label xml:lang="en">Primary Driver Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#race_engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#race_engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Race Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#race_team_mechanic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#race_team_mechanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Race Team Mechanic Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#radiator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#radiator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#cooling_components"/>
+        <rdfs:label xml:lang="en">Radiator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#rear_wing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#rear_wing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component"/>
+        <rdfs:label xml:lang="en">Rear Wing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#reserve_driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#reserve_driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#driver_role"/>
+        <rdfs:label xml:lang="en">Reserve Driver Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#safety_components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#safety_components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Safety Components</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#second_driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#second_driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#primary_driver"/>
+        <rdfs:label xml:lang="en">Second Driver Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#side_pods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#side_pods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component"/>
+        <rdfs:label xml:lang="en">Side Pods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#soft_tires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#soft_tires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
+        <rdfs:label xml:lang="en">Soft Tires</rdfs:label>
     </owl:Class>
     
 
@@ -302,6 +712,97 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#spatiotemporal_event">
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval"/>
+        <rdfs:label xml:lang="en">Spatiotemporal Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#steering_wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#steering_wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Steering Wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#super_soft_tires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#super_soft_tires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
+        <rdfs:label xml:lang="en">Super Soft Tires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#suspension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#suspension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Suspension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role"/>
+        <rdfs:label xml:lang="en">Team Owner Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_principal_role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_principal_role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role"/>
+        <rdfs:label xml:lang="en">Team Principal Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_strategist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_strategist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+        <rdfs:label xml:lang="en">Team Strategist Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#telementary_component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#telementary_component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#electronic_components"/>
+        <rdfs:label xml:lang="en">Telementary Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Tires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#transmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#transmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">Transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#wet_tires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#wet_tires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
+        <rdfs:label xml:lang="en">Wet Tires</rdfs:label>
     </owl:Class>
     
 
@@ -846,6 +1347,89 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Three"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Session_Two"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Sprint_Qualifying"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#brakes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chassis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#cooling_components"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#electronic_components"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_components"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#safety_components"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#side_pods"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#steering_wheel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#suspension"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#transmission"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamics_engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#controls_engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine_performance_engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engine_systems_engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#performance_engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#race_engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#race_team_mechanic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_strategist"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_engineering_officer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_executive_officer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_technology_officer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_owner"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#data_acquisition_component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#performance_monitoring_component"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#telementary_component"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#diffuser"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#front_wing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#rear_wing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#driver_role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_principal_role"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_injector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_pump"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_tank"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#hard_tires"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#intermediate_tires"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#medium_tires"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#soft_tires"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#super_soft_tires"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#wet_tires"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
