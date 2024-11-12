@@ -391,6 +391,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#circuit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#circuit">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:label>Circuit</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#controls_engineer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#controls_engineer">
