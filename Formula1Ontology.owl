@@ -30,9 +30,16 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Drives_For -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Drives_For">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Has_Driver"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Has_Driver -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Has_Driver"/>
     
 
 
