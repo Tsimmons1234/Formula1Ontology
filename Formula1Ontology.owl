@@ -154,14 +154,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Medical_Vehicle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Medical_Vehicle">
@@ -302,14 +294,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Vehicle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Vehicle">
@@ -333,6 +317,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamics_engineer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
         <rdfs:label xml:lang="en">Aerodynamics Engineer Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#backmarker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#backmarker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+        <rdfs:label xml:lang="en">Backmarker</rdfs:label>
     </owl:Class>
     
 
@@ -395,7 +388,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#circuit">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:label>Circuit</rdfs:label>
+        <rdfs:label xml:lang="en">Circuit</rdfs:label>
     </owl:Class>
     
 
@@ -520,6 +513,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#firstdriver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#firstdriver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <rdfs:label xml:lang="en">First Driver</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components">
@@ -534,6 +536,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#front_wing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#aerodynamic_component"/>
         <rdfs:label xml:lang="en">Front Wing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#frontrunner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#frontrunner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+        <rdfs:label xml:lang="en">Frontrunner</rdfs:label>
     </owl:Class>
     
 
@@ -606,6 +617,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#medium_tires">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#tires"/>
         <rdfs:label xml:lang="en">Medium Tires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#midfield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#midfield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+        <rdfs:label xml:lang="en">Midfield</rdfs:label>
     </owl:Class>
     
 
@@ -683,6 +703,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#reservedriver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#reservedriver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <rdfs:label xml:lang="en">Reserve Driver</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#safety_components -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#safety_components">
@@ -697,6 +726,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#second_driver">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#primary_driver"/>
         <rdfs:label xml:lang="en">Second Driver Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#seconddriver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#seconddriver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
+        <rdfs:label xml:lang="en">Second Driver</rdfs:label>
     </owl:Class>
     
 
@@ -1213,7 +1251,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#midfield"/>
         <untitled-ontology-2:Team_Name>Mercedes</untitled-ontology-2:Team_Name>
         <rdfs:label>Mercedes</rdfs:label>
     </owl:NamedIndividual>
@@ -1223,7 +1261,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te10 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te10">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#backmarker"/>
         <untitled-ontology-2:Team_Name>Alpine</untitled-ontology-2:Team_Name>
         <rdfs:label>Alpine</rdfs:label>
     </owl:NamedIndividual>
@@ -1233,7 +1271,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#frontrunner"/>
         <untitled-ontology-2:Team_Name>RedBull</untitled-ontology-2:Team_Name>
         <rdfs:label>RedBull</rdfs:label>
     </owl:NamedIndividual>
@@ -1243,7 +1281,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te3 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#frontrunner"/>
         <untitled-ontology-2:Team_Name>Ferrari</untitled-ontology-2:Team_Name>
         <rdfs:label>Ferrari</rdfs:label>
     </owl:NamedIndividual>
@@ -1253,7 +1291,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te4 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#frontrunner"/>
         <untitled-ontology-2:Team_Name>McLaren</untitled-ontology-2:Team_Name>
         <rdfs:label>Mclaren</rdfs:label>
     </owl:NamedIndividual>
@@ -1263,7 +1301,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te5 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#midfield"/>
         <untitled-ontology-2:Team_Name>Aston Martin</untitled-ontology-2:Team_Name>
         <rdfs:label>Aston Martin</rdfs:label>
     </owl:NamedIndividual>
@@ -1273,7 +1311,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#backmarker"/>
         <untitled-ontology-2:Team_Name>Haas F1</untitled-ontology-2:Team_Name>
         <rdfs:label>HaasF1</rdfs:label>
     </owl:NamedIndividual>
@@ -1283,7 +1321,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te7 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#midfield"/>
         <untitled-ontology-2:Team_Name>Racing Bulls</untitled-ontology-2:Team_Name>
         <rdfs:label>Racing Bulls</rdfs:label>
     </owl:NamedIndividual>
@@ -1293,7 +1331,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te8 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te8">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#backmarker"/>
         <untitled-ontology-2:Team_Name>Sauber Stake</untitled-ontology-2:Team_Name>
         <rdfs:label>Sauber Stake</rdfs:label>
     </owl:NamedIndividual>
@@ -1303,7 +1341,7 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Te9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#backmarker"/>
         <untitled-ontology-2:Team_Name>Williams</untitled-ontology-2:Team_Name>
         <rdfs:label>Williams</rdfs:label>
     </owl:NamedIndividual>
@@ -1318,15 +1356,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Lower_Five"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Upper_Five"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
@@ -1422,6 +1451,14 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#driver_role"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#engineer_role"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#team_principal_role"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#firstdriver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#reservedriver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#seconddriver"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
