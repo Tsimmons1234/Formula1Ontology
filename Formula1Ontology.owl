@@ -33,13 +33,16 @@
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Has_Driver"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Driver"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+        <rdfs:label xml:lang="en">drives for</rdfs:label>
     </owl:ObjectProperty>
     
 
 
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Has_Driver -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Has_Driver"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Has_Driver">
+        <rdfs:label xml:lang="en">has driver</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -47,6 +50,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Managed_By">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Manages"/>
+        <rdfs:label xml:lang="en">managed by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -56,6 +60,28 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Manages">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team_Principal"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team"/>
+        <rdfs:label xml:lang="en">manages</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#component_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#component_part_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000129"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#has_component_part"/>
+        <rdfs:label xml:lang="en">component part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#has_component_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#has_component_part">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000115"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Formula_One_Car"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+        <rdfs:label xml:lang="en">has component part</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -137,6 +163,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Formula_One_Car">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Vehicle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#has_component_part"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Formula One Car</rdfs:label>
     </owl:Class>
     
