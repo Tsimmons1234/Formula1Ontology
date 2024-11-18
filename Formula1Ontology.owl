@@ -831,7 +831,22 @@
     <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#non_dominantcar -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#non_dominantcar">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Formula_One_Car"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Formula_One_Car"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#has_dominant_feature"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#has_dominant_feature"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#formula_one_car_components"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:label xml:lang="en">Non-Dominant Car</rdfs:label>
     </owl:Class>
     
