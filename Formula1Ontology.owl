@@ -447,6 +447,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#Team">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#governing_body"/>
+        <rdfs:label xml:lang="en">Team</rdfs:label>
     </owl:Class>
     
 
@@ -535,7 +537,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_engineering_officer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role"/>
         <rdfs:label xml:lang="en">Cheif Engineering Officer Role</rdfs:label>
-        <skos:definition xml:lang="en">Chief Engineer</skos:definition>
+        <skos:definition xml:lang="en">A chief engineering role is a role involving primary oversight of the technical and engineering aspects of the team&apos;s car while ensuring compliance with regulations set forth by the FIA.</skos:definition>
     </owl:Class>
     
 
@@ -780,6 +782,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_tank">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#fuel_components"/>
         <rdfs:label xml:lang="en">Fuel Tank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#governing_body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#governing_body">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <rdfs:label xml:lang="en">Governing Body</rdfs:label>
     </owl:Class>
     
 
