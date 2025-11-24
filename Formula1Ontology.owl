@@ -535,6 +535,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#chief_engineering_officer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wilwa/ontologies/2024/2/untitled-ontology-2#business_role"/>
         <rdfs:label xml:lang="en">Cheif Engineering Officer Role</rdfs:label>
+        <skos:definition xml:lang="en">Chief Engineer</skos:definition>
     </owl:Class>
     
 
